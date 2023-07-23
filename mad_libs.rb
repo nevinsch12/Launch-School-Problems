@@ -1,5 +1,5 @@
 def mad_libs
-	print "Enter a noun: " 
+  print "Enter a noun: " 
 	noun = gets.chomp
 	print "Enter a verb: "
 	verb = gets.chomp
