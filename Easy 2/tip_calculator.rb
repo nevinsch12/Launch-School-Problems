@@ -5,5 +5,6 @@ tip_pct = gets.chomp.to_f
 
 tip = tip_pct/100 * bill
 total = bill + tip
-puts "The tip is $#{tip.round(2)}"
-puts "The total is $#{total.round(2)}"
+
+puts "The tip is $#{sprintf("%.2f",tip)}"
+puts "The total is $#{sprintf("%.2f", total)}"
