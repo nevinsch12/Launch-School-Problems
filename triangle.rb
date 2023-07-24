@@ -1,10 +1,10 @@
-def triangle(number)
-  asterisk = "*"
-  if number == 0
-    puts ""
-  else
-    puts "#{asterisk * number}"
-    puts triangle(number - 1)
+def triangle(num)
+  spaces = num - 1
+  stars = 1
+
+  num.times do |n|
+    puts (' ' * spaces) + ('*' * stars)
+    spaces -= 1
+    stars += 1
   end
 end
-triangle(100)
