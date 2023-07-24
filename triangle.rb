@@ -8,3 +8,4 @@ def triangle(num)
     stars += 1
   end
 end
+triangle(10)
